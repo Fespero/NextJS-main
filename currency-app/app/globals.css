@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("./fonts/TT Interfaces/stylesheet.css");
+@import url("./fonts/Campton/stylesheet.css");
+@import url("./fonts/Integral CF/stylesheet.css");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.select-dropdown::-webkit-scrollbar {
+  width: 2px;
+}
+
+.select-dropdown::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.select-dropdown::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 1px;
+}
